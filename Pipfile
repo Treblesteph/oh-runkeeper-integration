@@ -6,18 +6,22 @@ name = "pypi"
 
 
 [packages]
-
-Django = "*"
-celery = "*"
 arrow = "*"
-requests = "*"
-gunicorn = "*"
+celery = "*"
 dj-database-url = "*"
+django = "*"
+gunicorn = "*"
+iptools = "*"
+open-humans-api = "*"
 "psycopg2" = "*"
-whitenoise = "*"
-env-tools = "*"
+python-social-auth = "*"
+pyyaml = "*"
+raven = "*"
 redis = "*"
-PyYAML = "*"
+requests = "*"
+requests-oauthlib = "*"
+vcrpy = "*"
+whitenoise = "*"
 
 
 [dev-packages]

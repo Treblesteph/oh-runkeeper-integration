@@ -16,7 +16,7 @@ from celery import shared_task
 from django.conf import settings
 from open_humans.models import OpenHumansMember
 from datetime import datetime
-from demotemplate.settings import rr
+from runkeeper.settings import rr
 
 # Set up logging.
 logger = logging.getLogger(__name__)

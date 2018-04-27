@@ -3,9 +3,9 @@ from django.conf import settings
 from open_humans.models import OpenHumansMember
 
 
-class DataSourceMember(models.Model):
+class RunkeeperMember(models.Model):
     """
-    Store OAuth data for a data source.
+    Store OAuth data for a Runkeeper member.
     This is a one to one relationship with a OpenHumansMember model
     You can find the OpenHumansMember model in open_humans/models.py
 
